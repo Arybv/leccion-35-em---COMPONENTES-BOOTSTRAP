@@ -1,0 +1,71 @@
+*{
+  margin:0;
+  padding:0;
+}
+@font-face {
+  font-family: "proxima-nova-soft";
+  font-style: normal;
+}
+.fondo{
+  position: relative;
+}
+li{
+  line-height: none;
+  text-align: center;
+  background-color: #EB7260;
+  color: white;
+}
+.icon--feature-eco{
+  position: absolute;
+}
+
+
+/*IMAGENES LIMPIEZA*/
+.div-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  .fotos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transition: all 350ms ease-in-out;
+  }
+}
+.fotos:hover{
+  transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+}
+.fotos-01{
+  position: absolute;
+  left:100px;
+  top:100px;
+  z-index: 1;
+}
+.fotos-02{
+  position: absolute;
+  left:310px;
+  top:110px;
+  z-index: 2;
+}
+.fotos-03{
+  position: absolute;
+  left:520px;
+  top:100px;
+  z-index: 3;
+}
+.fotos-04{
+  position: absolute;
+  left:730px;
+  top:110px;
+  z-index: 4;
+}
+.fotos-05{
+  position: absolute;
+  left:950px;
+  top:100px;
+  z-index: 5;
+}
